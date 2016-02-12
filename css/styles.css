@@ -1,0 +1,177 @@
+.navbar {
+  /*  background-color: transparent;
+  background: transparent;
+  border-color: transparent; */
+   z-index: 2;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+#how {
+	margin-top: 10px;
+}
+
+.jumbotron { 
+    background-color: #f4511e !important; /* Orange */
+    color: #ffffff !important;
+    width: 100%;
+}
+
+.row {
+	padding: 70px 30px;
+}
+
+.container-fluid {
+    padding: 10px 10px;
+}
+
+#smaller {
+	width: 60%;
+}
+
+.modal-content {
+	width:100%;
+	height: 70vh;
+}
+
+#modal-inner-button {
+	position: relative;
+	left: calc(50% - 55px);
+}
+
+.navbar li { color: #000 } 
+
+.form-control {
+	position: absolute;
+	width: 60%;
+	left: 50%;
+	margin-left: -30%;
+	background: rgba(0,0,0,0.5);
+}
+.myRow {
+	height: 80vh;
+	width: 100%;
+}
+
+.navbar-default .navbar-brand {
+	color: white !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white !important;
+} 
+ 
+.navbar.transparent {
+   background: rgba(0,0,0,0.0);
+   border: none;
+   box-shadow: none;
+   color: white;
+}
+
+#logo {
+	margin-left: 15px;
+}
+
+.container-fluid {
+	padding-left: 0px !important;
+}
+
+.navbar-brand {
+	padding-left: 15px;
+}
+
+.nav {
+	color:white;
+}
+
+.dropdown {
+	color: white;
+}
+
+.item {
+	width:100%;
+	background-size: 100%;
+}
+
+#myCarousel{
+	position: absolute;
+	top:0px;
+	height: 80vh;
+	width: 100%;
+	overflow:hidden;
+}
+
+.carousel-txt{
+	position: absolute;
+	width: 60%;
+	left: 50%;
+	margin-left: -30%;
+	text-align: center;
+	top:20vh;
+	z-index:2;
+	color: white;
+}
+
+img {
+	width: 100%;
+	max-height:100%;
+}
+
+
+/*CARD FLIPPING*/
+
+
+.face {
+	height: 100%;
+	background-color: pink;
+	z-index: 3;
+}
+
+.flip {
+	height: 300px;
+  	-webkit-perspective: 800;
+	perspective: 800;
+    position: relative;
+ 	text-align: center;
+}
+.flip .card.flipped {
+  	-webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
+}
+.flip .card {
+  	height: 100%;
+  	-webkit-transform-style: preserve-3d;
+  	-webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+.flip .card .face {
+  	-webkit-backface-visibility: hidden ;
+    backface-visibility: hidden ;
+  	z-index: 2;
+}
+
+.flip .card .front {
+  	position: absolute;
+   width: 100%;
+  	z-index: 1;
+}
+
+.flip .card .back {
+  	-webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
+}
+
+.inner{
+	margin:0px !important;
+}
