@@ -1073,7 +1073,8 @@ header .intro .intro-heading {
 }
 
 .full {
-    width:100%;
+    width: 50%;
+    float: left;
     height:100%;
 }
 
